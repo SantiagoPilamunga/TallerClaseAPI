@@ -1,0 +1,6 @@
+@TallerClaseAPI_HostAddress = http://localhost:5267
+
+GET {{TallerClaseAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
