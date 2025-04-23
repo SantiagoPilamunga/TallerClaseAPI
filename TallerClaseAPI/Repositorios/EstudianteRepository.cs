@@ -31,5 +31,16 @@ namespace TallerClaseAPI.Repositorios
             estudiantes.Add (estudiante2);
             return estudiantes;
         }
+
+        public bool EliminarEstudiante(string BannerId)
+        {
+            //logica del negocio
+            return true;
+        }
+
+        public bool GuardarEstudiante(Estudiante estudiante)
+        {
+            return true;
+        }
     }
 }
